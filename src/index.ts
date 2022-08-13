@@ -1,4 +1,4 @@
-export const binarySearch = async (arr: number[], val: number) => {
+export const binarySearch = async (arr: number[], val: number): Promise<number> => {
   arr.sort((a, b) => {
     return a - b;
   });
