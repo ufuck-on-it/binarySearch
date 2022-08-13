@@ -7,7 +7,7 @@ returns the matched key or -1 if not found.
 
 ## example
 
-    let  array = []
+    ```let  array = []
     
     for (let  index = 0; index < 16922000; index++) {
     
@@ -26,14 +26,14 @@ returns the matched key or -1 if not found.
       
       
     
-    console.log(bs.binarySearch([10, 16, 5, 28, 30, 6, 7], 7)); //Auto sort Promise { 2 }
+    console.log(bs.binarySearch([10, 16, 5, 28, 30, 6, 7], 7)); //Auto sort Promise { 2 }```
 
 
 ## Time Results
 
 **Code:**
 
-    let  array = []
+    ```let  array = []
     for (let  index = 1; index < 16922000; index++) {
         array.push(index)
     }
@@ -73,11 +73,11 @@ returns the matched key or -1 if not found.
     var  result = await  binarySearch(a, searchValue);
     console.timeEnd("binarySearch")
     let  test = a[result]
-    console.log({ searchValue, result, test });
+    console.log({ searchValue, result, test });```
 
 **Console :** 
 
-    map: 293.726ms
+    ```map: 293.726ms
     forEach: 181.763ms
     forof: 283.693ms
     filter: 213.839ms
@@ -85,4 +85,4 @@ returns the matched key or -1 if not found.
     includes: 3.881ms
     indexOf: 3.244ms
     binarySearch: 0.244ms
-    { searchValue: 1692200, result: 1692199, test: 1692200 }
+    { searchValue: 1692200, result: 1692199, test: 1692200 }```
