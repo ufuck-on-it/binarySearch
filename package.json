@@ -21,7 +21,12 @@
   },
   "keywords": [
     "array",
-    "search"
+    "search",
+    "binary search",
+    "typescript",
+    "slice",
+    "sort",
+    "largest array"
   ],
   "author": "Ufuck1903",
   "license": "MIT",
