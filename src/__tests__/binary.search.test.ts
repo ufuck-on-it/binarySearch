@@ -1,9 +1,10 @@
-import { binarySearch } from '../index';
+import { binarySearch, sort } from '../index';
 let array: Array<number> = [];
 
 for (let index = 1; index < 16922000; index++) {
   array.push(index);
 }
+
 test('binarySearch', async () => {
   const seach = 542352;
   const toBe = seach - 1;
@@ -31,5 +32,5 @@ test('binarySearch', async () => {
 test('binarySearch', async () => {
   const array = [10, 16, 5, 28, 30, 6, 7];
   const seach = 7;
-  expect(await binarySearch(array, seach)).toBe(2);
+  expect(await binarySearch(await sort(array), seach)).toBe(2);
 });

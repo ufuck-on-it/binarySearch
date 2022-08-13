@@ -21,7 +21,7 @@ console.log(bs.binarySearch(array, 58558)); //Promise { 58558 }
 
 console.log(bs.binarySearch(array, 16922001)); //Promise { -1 }
 
-console.log(bs.binarySearch([10, 16, 5, 28, 30, 6, 7], 7)); //Auto sort Promise { 2 }
+console.log(bs.binarySearch(bs.sort([10, 16, 5, 28, 30, 6, 7]), 7)); //Auto sort Promise { 2 }
 ```
 ## Time Results
 
