@@ -6,7 +6,7 @@ returns the matched key or -1 if not found.
 
 
 ## example
-```
+```js
 let array = []
 
 for (let index = 0; index < 16922000; index++) {
@@ -27,7 +27,7 @@ console.log(bs.binarySearch([10, 16, 5, 28, 30, 6, 7], 7)); //Auto sort Promise 
 
 **Code:**
 
-```
+```js
 let array = []
 for (let index = 1; index < 16922000; index++) {
     array.push(index)
@@ -73,7 +73,7 @@ console.log({ searchValue, result, test });
 
 **Console :**
 
-```
+```js
 map: 293.726ms
 forEach: 181.763ms
 forof: 283.693ms
